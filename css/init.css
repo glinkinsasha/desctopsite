@@ -1,0 +1,266 @@
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wrapper-404 {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto !important;
+}
+
+.container.page-404 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: auto;
+    margin: 40px 0;
+}
+
+.contacts__map {
+    height: 500px;
+}
+
+
+/* MODAL*/
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+    border-color: transparent;
+}
+
+span.wpcf7-not-valid-tip {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+
+div.wpcf7-response-output {
+    font-size: 14px;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    line-height: 18px;
+    text-align: center
+}
+
+
+.wpcf7-form.invalid {
+    margin-bottom: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+    display: none !important;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
+    position: relative;
+}
+
+
+span.wpcf7-form-control-wrap {
+    display: block;
+
+}
+
+span.wpcf7-not-valid-tip {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+.sale-block {
+    overflow: hidden;
+}
+
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .logo-no-brands {
+    height: 61px;
+}
+
+footer .logo-no-brands {
+    height: 50px;
+}
+
+.map .container .contacts-right .contacts__phones {
+    background-size: 20px 20px;
+}
+
+.works__head__computers,
+.works__head__laptops {
+    background-size: 48px 48px;
+}
+
+.works__head__windows,
+.works__head__enternet {
+    background-size: 35px 35px;
+}
+
+.works__head__kaspersk {
+    background-size: 40px 40px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .action-section .container {
+        height: auto;
+    }
+
+    header.stiky .logo-no-brands {
+        height: 45px;
+    }
+
+    footer .container .lenstudio img {
+        top: 0;
+        left: 5px;
+    }
+}
+
+.you-know__form .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors,
+.sale-block__form .wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    position: absolute;
+    display: none !important;
+
+}
+
+.you-know-option.hidden {
+    display: none;
+}
+
+.slick-slide {
+    height: auto !important;
+}
+
+.sale-block__form form {
+    display: flex;
+}
+
+.questions .container .questions__block form span {
+    width: 49%;
+}
+
+.questions .container .questions__block form span input,
+.questions .container .questions__block form span.question {
+    width: 100%;
+}
+
+
+select::-ms-expand {
+    display: none;
+}
+
+.vantage__row_left {
+    width: 70%;
+}
+
+
+@media screen and (max-width: 992px) {
+    nav li a.active {
+        display: inline;
+    }
+
+    header .container .head__left-side {
+        width: 80%;
+    }
+
+    .vantage__row_left {
+        width: 78%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .sale-block__form form {
+        flex-direction: column;
+    }
+
+    .questions .container .questions__block form span {
+        width: 100%;
+    }
+
+    .logo {
+        height: 45px;
+    }
+
+    .head__left-side {
+        position: relative;
+    }
+
+    .head__left-side .items {
+        top: 5px;
+        right: 0;
+    }
+
+    header .container .head__left-side {
+        width: 100%;
+    }
+
+    .vantage__row_left {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .head__phone {
+        background-size: 15px;
+        padding-left: 19px;
+    }
+
+    header .container .head__right-side .head__phone a {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .main-block .container .main-block__left .btn-red {
+        padding-left: 10px;
+    }
+
+    .specials__item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+.osob-desct{
+    font-size: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.osob-desct a{
+    color: white !important;
+}
+
+.osob-desct__block{
+    margin-top: 20px;
+}
